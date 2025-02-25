@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        /* @apply p-5; */
+    }
+
+    main {
+        @apply px-8 py-3
+    }
+
+    button {
+        @apply bg-orange-500 text-white cursor-pointer py-2 px-3 rounded hover:bg-orange-600 active:bg-orange-700;
+    }
+}
+
+@layer components {
+    .header {
+        @apply px-8 py-3 bg-blue-200
+    }
+}
